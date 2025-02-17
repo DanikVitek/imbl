@@ -1536,8 +1536,6 @@ where
 
 impl<K, V, S, P> Clone for GenericHashMap<K, V, S, P>
 where
-    K: Clone,
-    V: Clone,
     P: SharedPointerKind,
 {
     /// Clone a map.
