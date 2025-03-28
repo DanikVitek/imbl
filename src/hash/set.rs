@@ -611,7 +611,6 @@ where
 
 impl<A, S, P: SharedPointerKind> Clone for GenericHashSet<A, S, P>
 where
-    A: Clone,
     P: SharedPointerKind,
 {
     /// Clone a set.
